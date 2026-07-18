@@ -14,7 +14,7 @@
 
 ## 🛠️ 技术栈
 
-- **游戏引擎**：Unity 2020.3+（或你用的版本）
+- **游戏引擎**：Unity 2021.3.45
 - **编程语言**：C#
 - **UI 系统**：UGUI
 - **动画插件**：DOTween（滑动合并的动画效果）
@@ -28,21 +28,14 @@
 - **游戏结束面板**：无法继续滑动时，弹出结束面板，显示本局得分和用时。
 - **重新开始**：点击结束面板上的“重新开始”按钮，清空所有数据，生成新的方块开始新对局。
 
-## 🚀 如何运行本项目（让面试官能跑起来）
 
-1. **克隆或下载**：把本项目从 GitHub 下载到你的电脑上。
-2. **安装 Unity**：确保电脑安装了 Unity Hub 和 Unity 2020.3 或更高版本。
-3. **打开工程**：打开 Unity Hub，点击“添加项目”，选择本项目文件夹（选择包含 `Assets` 和 `ProjectSettings` 的那个根目录）。
-4. **安装依赖包**：打开项目后，如果提示缺少 DOTween 插件（因为用了动画），请按以下步骤安装：
-   - 在 Unity 顶部菜单栏点击 `Window` -> `Package Manager`。
-   - 点击左上角的 `+` 号 -> `Add package by name...`。
-   - 输入 `com.demigiant.dotween` 并点击安装。
-5. **运行游戏**：在 Unity 的 `Project` 面板中，找到 `Scenes` 文件夹，双击打开主场景（通常叫 `MainScene.unity` 或 `Game.unity`），点击顶部的播放键（▶️）即可开始游戏。
+## 📷 截图展示
+<img width="1301" height="1127" alt="屏幕截图 2026-07-19 000917" src="https://github.com/user-attachments/assets/9fbce24a-67d8-4f04-b3b8-c9989b277ea7" />
+<img width="1291" height="1255" alt="屏幕截图 2026-07-19 000854" src="https://github.com/user-attachments/assets/26d5a92d-8987-4de7-8796-b5547587231a" />
+<img width="1301" height="1120" alt="屏幕截图 2026-07-19 000924" src="https://github.com/user-attachments/assets/eb607281-4ebe-4917-b4d9-c0f48c151cfb" />
 
-## 📷 截图展示（建议放一张）
 
-*(你可以在这里放一张游戏运行时的截图，比如合并出128时的画面。截图放在项目文件夹里，然后把文件名填进去，例如：`![游戏截图](https://github.com/你的用户名/2048-Unity/raw/main/游戏截图.png)`)*
 
 ## 📌 参考来源
 
-本项目核心滑动算法参考了 GitHub 上的开源代码，在此基础上进行了二次重构和功能扩展。
+本项目核参考了 GitHub 上的开源代码，在此基础上进行了二次重构和功能扩展。
