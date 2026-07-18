@@ -38,4 +38,4 @@
 
 ## 📌 参考来源
 
-本项目核参考了 GitHub 上的开源代码，在此基础上进行了二次重构和功能扩展。
+本项目核参考了 GitHub 上的开源代码https://github.com/shlifedev/unity-2048.git，在此基础上进行了二次重构和功能扩展。
